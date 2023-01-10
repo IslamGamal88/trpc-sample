@@ -1,0 +1,20 @@
+{
+  "name": "express-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "concurrently \" wsrun --parallel start \""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "wsrun": "^5.2.4"
+  }  
+}
